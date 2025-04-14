@@ -45,13 +45,11 @@ if opcion == "🏠 Inicio":
 
 # Currículum
 elif opcion == "📄 Currículum":
-   # st.title("📄 Mi Currículum")
-   # st.write("Puedes descargar mi CV en PDF aquí:")
-   # with open("cv.pdf", "rb") as file:
-   #     st.download_button("📥 Descargar CV", file, "cv.pdf", mime="application/pdf")
-    pdf_url = 'https://github.com/RickyRob/curriculum/blob/main/paginaCV/cv.pdf'
-    pdf_display = F'<iframe src="{pdf_url}" width="700" height="700" type="application/pdf"></iframe>'
-    st.markdown(pdf_display, unsafe_allow_html=True)
+    st.title("📄 Mi Currículum")
+    st.write("Puedes descargar mi CV en PDF aquí:")
+    with open("paginaCV/cv.pdf", "rb") as file:
+        st.download_button("📥 Descargar CV", file, "cv.pdf", mime="application/pdf")
+   
 
 # Dashboards
 elif opcion == "📊 Dashboards":
