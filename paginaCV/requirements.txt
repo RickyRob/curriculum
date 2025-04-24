@@ -1,3 +1,6 @@
 streamlit
 pandas
 plotly
+dash
+yfinance
+plotly.graph_objects

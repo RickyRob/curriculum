@@ -3,7 +3,6 @@ import pandas as pd
 import plotly.express as px
 from dash import Dash, dcc, html, Input, Output
 import yfinance as yf
-import numpy as np
 import plotly.graph_objects as go
 
 
